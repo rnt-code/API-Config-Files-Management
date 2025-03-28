@@ -12,10 +12,6 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="controls" Type="Folder">
-			<Item Name="path data.ctl" Type="VI" URL="../controls/path data.ctl"/>
-			<Item Name="ring data.ctl" Type="VI" URL="../controls/ring data.ctl"/>
-		</Item>
 		<Item Name="close config file.vi" Type="VI" URL="../close config file.vi"/>
 		<Item Name="open config file.vi" Type="VI" URL="../open config file.vi"/>
 		<Item Name="read config ini data.vi" Type="VI" URL="../read config ini data.vi"/>
