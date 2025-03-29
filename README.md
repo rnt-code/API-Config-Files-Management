@@ -60,9 +60,3 @@ This function opens a configuration `.ini` file for reading or writing, given th
 #### `close config file.vi`
 
 This function closes the currently opened configuration `.ini` file, destroying the associated Refnum. It ensures that the file is properly closed, and no further operations can be performed until the file is reopened.
-
-## Usage Example
-
-```labview
-// Example code for using the API
-
