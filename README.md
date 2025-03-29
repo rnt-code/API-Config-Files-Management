@@ -67,7 +67,7 @@ These functions manage opening and closing configuration files.
 
 ![imagen](https://github.com/user-attachments/assets/366d380d-8639-4ef9-81ed-920aa698df3b)
 
-This function opens a configuration `.ini` file for reading or writing, given the file name as a string input. Internally, it uses the Aplication Directory.vi that returns the app directory, and build the full path for the configuration file. The function returns a Refnum to the opened configuration file.
+This function opens a configuration `.ini` file for reading or writing, given the file name as a string input. Internally, it uses the Application Directory.vi that returns the app directory, and build the full path for the configuration file. The function returns a Refnum to the opened configuration file.
 
 #### `close config file.vi`
 
