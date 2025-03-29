@@ -74,3 +74,24 @@ This function opens a configuration `.ini` file for reading or writing, given th
 ![imagen](https://github.com/user-attachments/assets/4376d467-c207-40d3-b17a-067f2d71cd86)
 
 This function closes the currently opened configuration `.ini` file, destroying the associated Refnum. It ensures that the file is properly closed, and no further operations can be performed until the file is reopened.
+
+The API includes two controls for managing the clusters used in reading and writing configuration data.
+
+#### `config data.ctl`
+
+![imagen](https://github.com/user-attachments/assets/5733eb65-2a38-433f-81da-d549226ff76d)
+
+This control represents the cluster used for reading and writing the complete configuration data. It contains:
+- A 2D string array for the section names and their respective key counts.
+- A 1D string array for the key names.
+- A 1D string array for the corresponding values.
+
+#### `section data.ctl`
+
+![imagen](https://github.com/user-attachments/assets/15c8f33e-458a-4e19-ae61-d3298831e18f)
+
+This control represents the cluster used for handling data related to a single section. It contains:
+- A string for the section name.
+- A 1D string array for the key names.
+- A 1D string array for the corresponding values.
+
