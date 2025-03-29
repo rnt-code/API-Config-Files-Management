@@ -44,7 +44,7 @@ This function writes the complete data from the input cluster to a configuration
 
 ![imagen](https://github.com/user-attachments/assets/9a5a1392-240b-46c5-838d-368c747e9fb8)
 
-This function writes all keys and their corresponding values to a specified section in a configuration `.ini` file. The input is a cluster containing:
+This function writes all keys and their corresponding values to a configuration `.ini` file, given the section name. The input is a cluster containing:
 - A string for the section name.
 - A 1D string array for the key names.
 - A 1D string array for the corresponding values.
@@ -67,7 +67,7 @@ These functions manage opening and closing configuration files.
 
 ![imagen](https://github.com/user-attachments/assets/366d380d-8639-4ef9-81ed-920aa698df3b)
 
-This function opens a configuration `.ini` file for reading or writing, given the file name as a string input. Internally, it uses the `Application Directory.vi` to return the app directory and constructs the full path for the configuration file. The function returns a Refnum to the opened configuration file.
+This function opens a configuration `.ini` file for reading or writing, given the file name as a string input. Internally, it uses the Aplication Directory.vi that returns the app directory, and build the full path for the configuration file. The function returns a Refnum to the opened configuration file.
 
 #### `close config file.vi`
 
