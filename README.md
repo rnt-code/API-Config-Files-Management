@@ -42,6 +42,8 @@ This function writes the complete data from the input cluster to a configuration
 
 #### `write keys per section.vi`
 
+![imagen](https://github.com/user-attachments/assets/9a5a1392-240b-46c5-838d-368c747e9fb8)
+
 This function writes all keys and their corresponding values to a specified section in a configuration `.ini` file. The input is a cluster containing:
 - A string for the section name.
 - A 1D string array for the key names.
@@ -52,6 +54,8 @@ This function writes all keys and their corresponding values to a specified sect
 These functions allow manipulation of keys in the configuration `.ini` file.
 
 #### `remove all keys per section.vi`
+
+![imagen](https://github.com/user-attachments/assets/ed994fab-5243-40e2-9670-c3758140ea1d)
 
 This function removes all keys from a specified section in a configuration `.ini` file, given the section name. The result in the `.ini` file is the section without any keys, but the section itself remains.
 
