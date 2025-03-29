@@ -102,7 +102,7 @@ This control represents the cluster used for handling data related to a single s
 
 ### Visual Representation
 
-The infographics below show the organization of the config data.ctl and section data.ctl clusters in relation to the .ini file. On the right, the .ini file layout is displayed, showing sections with keys and their corresponding values. On the left, the clusters are depicted, illustrating how the arrays are structured within the clusters. The two graphics provide a clear comparison of how the data is organized in both the clusters and the .ini file.
+The infographics below show the organization of the `config data.ctl` and `section data.ctl` clusters in relation to the `.ini` file. On the right, the `.ini` file layout is displayed, showing sections with keys and their corresponding values. On the left, the clusters are depicted, illustrating how the arrays are structured within the clusters. The two graphics provide a clear comparison of how the data is organized in both the clusters and the `.ini` file.
 
 ![imagen](https://github.com/user-attachments/assets/43f39d7d-e7dc-40a9-b872-6d37c724f284)
 
