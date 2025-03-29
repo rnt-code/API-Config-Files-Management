@@ -12,10 +12,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="close config file.vi" Type="VI" URL="../close config file.vi"/>
-		<Item Name="open config file.vi" Type="VI" URL="../open config file.vi"/>
-		<Item Name="read config ini data.vi" Type="VI" URL="../read config ini data.vi"/>
-		<Item Name="write config ini data.vi" Type="VI" URL="../write config ini data.vi"/>
+		<Item Name="API Config Files Management.lvlib" Type="Library" URL="../API Config Files Management.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
