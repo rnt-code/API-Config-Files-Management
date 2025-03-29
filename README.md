@@ -101,5 +101,6 @@ The infographics below show the organization of the config data.ctl and section 
 
 ![imagen](https://github.com/user-attachments/assets/43f39d7d-e7dc-40a9-b872-6d37c724f284)
 
-![imagen](https://github.com/user-attachments/assets/a45a2522-6ff2-4b29-9882-4155a8ce0660)
+![imagen](https://github.com/user-attachments/assets/7fd5a796-3ed2-4efa-8eb7-7ab852bb3bc2)
+
 
