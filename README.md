@@ -11,12 +11,16 @@ These functions are used to read data from a configuration `.ini` file.
 
 #### `read config ini data.vi`
 
+![imagen](https://github.com/user-attachments/assets/c1ad7138-d9c2-4a8b-b442-d1a231a78559)
+
 This function reads all the data from a configuration `.ini` file and returns it in a cluster. The cluster contains three arrays:
 - A 2D string array for the sections, where the first row stores the section names and the second row stores the number of keys in each section.
 - A 1D string array for the key names.
 - A 1D string array for the corresponding values.
 
 #### `read keys per section.vi`
+
+![imagen](https://github.com/user-attachments/assets/7db1cc2e-b21a-45d4-abe6-1afc83a4762d)
 
 This function retrieves all keys and their corresponding values from a specified section in a configuration `.ini` file. Given the section name, the output is a cluster containing:
 - A string for the section name.
@@ -28,6 +32,8 @@ This function retrieves all keys and their corresponding values from a specified
 These functions are used to write data to a configuration `.ini` file.
 
 #### `write config ini data.vi`
+
+![imagen](https://github.com/user-attachments/assets/d8947b49-ddb8-4e66-9ce7-d75a4374243f)
 
 This function writes the complete data from the input cluster to a configuration `.ini` file. The input cluster contains three arrays:
 - A 2D string array for the sections, where the first row stores the section names and the second row stores the number of keys in each section.
