@@ -12,8 +12,8 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="API Config Files Management.lvlib" Type="Library" URL="../API Config Files Management.lvlib"/>
-		<Item Name="ring options.ini" Type="Document" URL="../ring options.ini"/>
+		<Item Name="API Config Files.lvlib" Type="Library" URL="../API Config Files.lvlib"/>
+		<Item Name="config example file.ini" Type="Document" URL="../config example file.ini"/>
 		<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
