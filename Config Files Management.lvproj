@@ -12,7 +12,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="API Config Files.lvlib" Type="Library" URL="../API Config Files.lvlib"/>
+		<Item Name="API Config Files.lvlib" Type="Library" URL="../Config Files Management/API Config Files.lvlib"/>
 		<Item Name="config example file.ini" Type="Document" URL="../config example file.ini"/>
 		<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
