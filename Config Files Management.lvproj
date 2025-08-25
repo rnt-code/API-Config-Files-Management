@@ -12,9 +12,11 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Example" Type="Folder">
+			<Item Name="ring options.ini" Type="Document" URL="../ring options.ini"/>
+			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
+		</Item>
 		<Item Name="API Config Files.lvlib" Type="Library" URL="../Config Files API/API Config Files.lvlib"/>
-		<Item Name="config example file.ini" Type="Document" URL="../config example file.ini"/>
-		<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

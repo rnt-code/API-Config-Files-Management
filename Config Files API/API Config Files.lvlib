@@ -12,7 +12,6 @@
 	<Property Name="NI.Lib.Description" Type="Str">This API allows for efficient management of configuration .ini files. It includes functions for reading, writing, and manipulating sections and keys within configuration files. It is designed to provide easy access to configuration data and modify it dynamically.</Property>
 	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">*!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*#!!!*Q(C=\&gt;7R&lt;2N"%)8B:]/"5X:AM)88!B5;DBAS(="WY*#B&amp;$*40&amp;!(&lt;)%6#*A77)+I1!8)`SU(F#$!9G)&lt;BK%\\J&amp;]OTP\[?ZYEM&lt;W5@KARX0&lt;\;P&lt;[*@[-&amp;Z5(B^'/P5@UW08]6-@H`J0A[1O&gt;(R`/@`W_8T^9PWO&gt;JL`OP`-JL@N&lt;@O`N[OT0Y)``DNYJ_F"2#N;UI*G4=M_&amp;HG2&amp;XG2&amp;XG2*XG3*XG3*XG3"XG1"XG1"XG1G^TE*D?ZS5U_&gt;H+2CVTEE)L&amp;CY7+IE7"9D!5&amp;9@#5XA+4_(BKQJ0Y3E]B;@Q-%3&amp;J`!5HM*4?*CGQF.Y#E`B+4S5'J);/TG?QE.Z*:\%EXA34_*B337?"*!MFB2/CM"1UJF]3$S**`(Q59EH]33?R*.Y[&amp;&lt;C34S**`%E(K;-MZ*$-_XE?#CDQ".Y!E`A#4S56O!*0)%H]!1?FF0A#4Q")FAQ+!Z"Q;2A10!F]!1?XB2Y!E`A#4S"B[ZRB7+=G5ET\?2YD-&gt;YD-&gt;YD)=3-B\D-2\D-2\+SHC-RXC-RXB93M:D0-:D)':2FJ=J:C;;139Q(F\D&lt;P'Y3DEE(LP5.[`[JF4@&lt;/K&lt;3(VTK#_[_G+K,Z,[Z+N0KPJEK5_#_I^4I^59^3,KS&gt;.!(4DO;4P;FL;BL7F,WI)WJ]WGK&lt;^ZY/&amp;QU([`VW[XUX;\V7;TU8K^VH+ZV'+RU(Q_VWQW/TU'0L'@(AB0T[7(GYPLO[_LS`NPH\`=@6`^?,B:8@_F`]``Q,.2\`6]$=\24Y4IDT5!!!!!</Property>
-	<Property Name="NI.Lib.SourceVersion" Type="Int">604012544</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
@@ -36,6 +35,9 @@
 	<Property Name="SaveStatePeriod" Type="UInt">0</Property>
 	<Property Name="Serialized ACL" Type="Bin">*!#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
+	<Item Name="Private" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
 	<Item Name="TypeDefs" Type="Folder">
 		<Item Name="config data--cluster.ctl" Type="VI" URL="../config data--cluster.ctl"/>
 		<Item Name="section data--cluster.ctl" Type="VI" URL="../section data--cluster.ctl"/>
@@ -48,8 +50,5 @@
 		<Item Name="read keys per section.vi" Type="VI" URL="../read keys per section.vi"/>
 		<Item Name="write keys per section.vi" Type="VI" URL="../write keys per section.vi"/>
 		<Item Name="remove all keys per section.vi" Type="VI" URL="../remove all keys per section.vi"/>
-	</Item>
-	<Item Name="Private" Type="Folder">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 </Library>
