@@ -1,4 +1,4 @@
-# API Config Files Management
+# Configuration Files Management
 ## API for Windows configuration file management
 
 This API allows for efficient management of configuration `.ini` files. It includes functions for reading, writing, and manipulating sections and keys within configuration files. It is designed to provide easy access to configuration data and modify it dynamically.
