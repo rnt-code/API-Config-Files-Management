@@ -13,8 +13,8 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Example" Type="Folder">
-			<Item Name="Example.vi" Type="VI" URL="../Example.vi"/>
-			<Item Name="ring options.ini" Type="Document" URL="../ring options.ini"/>
+			<Item Name="Example.vi" Type="VI" URL="../Example/Example.vi"/>
+			<Item Name="ring options.ini" Type="Document" URL="../Example/ring options.ini"/>
 		</Item>
 		<Item Name="Config Files Management.lvlib" Type="Library" URL="../Config Files Management/Config Files Management.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
