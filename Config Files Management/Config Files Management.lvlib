@@ -38,11 +38,11 @@
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="TypeDefs" Type="Folder">
-		<Item Name="config data--cluster.ctl" Type="VI" URL="../config data--cluster.ctl"/>
-		<Item Name="section data--cluster.ctl" Type="VI" URL="../section data--cluster.ctl"/>
-	</Item>
 	<Item Name="Public" Type="Folder">
+		<Item Name="TypeDefs" Type="Folder">
+			<Item Name="config data--cluster.ctl" Type="VI" URL="../config data--cluster.ctl"/>
+			<Item Name="section data--cluster.ctl" Type="VI" URL="../section data--cluster.ctl"/>
+		</Item>
 		<Item Name="close config file.vi" Type="VI" URL="../close config file.vi"/>
 		<Item Name="open config file.vi" Type="VI" URL="../open config file.vi"/>
 		<Item Name="read config ini data.vi" Type="VI" URL="../read config ini data.vi"/>
