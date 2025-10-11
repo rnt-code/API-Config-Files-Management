@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-09-13 15:39:54" Modified_Date="2025-09-13 16:45:15" Creator="ingra" Comments="" ID="f01eb1008c0ef4dbb16bcb8fed5a34bc">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-09-13 15:39:54" Modified_Date="2025-10-11 13:04:08" Creator="ingra" Comments="" ID="2bcd84522c8d9813cfd33eac24d6d847">
   <Library_General_Settings>
     <Package_File_Name>TABOADA_lib_Config_File_Management</Package_File_Name>
-    <Library_Version>1.0.0.3</Library_Version>
+    <Library_Version>1.0.0.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -245,7 +245,7 @@ This API allows for efficient management of configuration .ini files. It include
         <Path>Example</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6D31B500831F6E6AEA7C2E0DBC536C3F</GUID>
+      <GUID>200F6089B7AA551CEB7E703192DC0B0D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -364,7 +364,7 @@ This API allows for efficient management of configuration .ini files. It include
         <Path>Config Files Management\write keys per section.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6E34F41AD8636CC02DCB0DC26D7DA668</GUID>
+      <GUID>7680D9D6E1ABDDA08B7D380198C56113</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -399,7 +399,7 @@ This API allows for efficient management of configuration .ini files. It include
         <Path>Example\Example.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7B9B587365898A454F0DBF40D27097D3</GUID>
+      <GUID>F48D02A6F50C0BEBE92F5A4E8E055B79</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -434,7 +434,7 @@ This API allows for efficient management of configuration .ini files. It include
         <Path>Config Files Management</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7FEF2989E8CF470C3FF2D10DAE4AFDE1</GUID>
+      <GUID>87906D9A4FBCFBAFCB46999FC6982DC4</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -483,7 +483,7 @@ This API allows for efficient management of configuration .ini files. It include
         <Path>Config Files Management\section data--cluster.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FF7534003FBCEFB61D302B9575D309A3</GUID>
+      <GUID>5035296F739CA14D13FF04642CBCA170</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
