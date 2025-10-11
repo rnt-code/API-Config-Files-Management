@@ -37,11 +37,13 @@
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="section data extractor.vi" Type="VI" URL="../section data extractor.vi"/>
 	</Item>
 	<Item Name="Public" Type="Folder">
 		<Item Name="TypeDefs" Type="Folder">
 			<Item Name="config data--cluster.ctl" Type="VI" URL="../config data--cluster.ctl"/>
 			<Item Name="section data--cluster.ctl" Type="VI" URL="../section data--cluster.ctl"/>
+			<Item Name="section data row selector--ring.ctl" Type="VI" URL="../section data row selector--ring.ctl"/>
 		</Item>
 		<Item Name="close config file.vi" Type="VI" URL="../close config file.vi"/>
 		<Item Name="open config file.vi" Type="VI" URL="../open config file.vi"/>
